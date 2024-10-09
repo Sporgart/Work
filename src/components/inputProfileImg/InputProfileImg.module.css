@@ -1,0 +1,36 @@
+.input__user-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+	width: 96px;
+	height: 96px;
+}
+.input__picture {
+	width: 96px;
+	height: 96px;
+	border-radius: 0.75rem;
+
+	overflow: hidden;
+}
+.input__file {
+	display: none;
+}
+.input__uploadbtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	bottom: -7px;
+	right: -7px;
+	height: 30px;
+	width: 30px;
+	padding: 6px 6px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #fff;
+	background-color: rgba(173, 172, 172, 0.8);
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}

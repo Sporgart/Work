@@ -1,0 +1,31 @@
+.tool-card {
+	position: relative;
+	padding: 1rem;
+	border-radius: 0.375rem;
+
+	background-color: var(--element-bg);
+
+	text-align: center;
+}
+.tool-name {
+	position: absolute;
+	top: -5px;
+	transform: translateX(-50%);
+	padding: 0.125rem 0.625rem;
+	border-radius: 3.5rem;
+
+	background-color: var(--black);
+
+	font-weight: 500;
+	font-size: 5px;
+	line-height: 1.42;
+	color: var(--light-text);
+	white-space: nowrap;
+}
+.tool-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}

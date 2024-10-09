@@ -1,0 +1,10 @@
+.interests-card {
+	padding: 0.25rem 0.625rem;
+	border-radius: 40px;
+
+	background-color: var(--element-bg);
+
+	font-weight: 400;
+	font-size: 0.625rem;
+	color: var(--main-text);
+}

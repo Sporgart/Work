@@ -1,0 +1,12 @@
+.change-btn {
+	width: 124px;
+	padding: 0.5rem;
+	border-radius: 0.75rem;
+
+	background-color: var(--block-bg);
+
+	font-size: 0.75rem;
+	line-height: 1.5;
+	color: var(--secondary-lower-text);
+	text-align: center;
+}

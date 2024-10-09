@@ -1,0 +1,89 @@
+:root {
+	font-size: 1em;
+
+	--white: #ffffff;
+	--smoky-white: #f0f0f0;
+	--green-tea: #ebf9f2;
+	--wet-asphalt: #5c5c5c;
+	--grey-brown: #3f3d3d;
+	--black: #000000;
+	--caribbean-green: #28d979;
+	--wet-rainforest: #149063;
+	--yellow: #f6ed1e;
+	--pistachio: #ddf163;
+	--sandy-grey-brown: #7e7312;
+
+	--main-text: var(--black, #000000);
+	--secondary-large-text: var(--wet-asphalt, #5c5c5c);
+	--secondary-lower-text: var(--grey-brown, #3f3d3d);
+	--light-text: var(--white, #ffffff);
+	--light-secondary-text: var(--green-tea, #ebf9f2);
+	--accent-text: var(--wet-rainforest, #149063);
+	--block-bg: var(--smoky-white, #f0f0f0);
+	--element-bg: var(--white, #ffffff);
+	--accent-bg: var(--caribbean-green, #28d979);
+}
+.dark {
+	/* CODE... */
+}
+
+/* connect fonts */
+/* Poppins */
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+		url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+		url('../fonts/poppins/Poppins-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+		url('../fonts/poppins/Poppins-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* my reset */
+a {
+	cursor: pointer;
+	color: inherit;
+}
+button {
+	font: inherit;
+}
+img {
+	user-select: none;
+}
+span {
+	white-space: nowrap;
+}
+
+/* main css */
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: var(--main-text);
+}
+body,
+#root,
+.App {
+	min-height: 100vh;
+}
+#root {
+	position: relative;
+}
+.App {
+	display: flex;
+	flex-direction: column;
+
+	max-width: 595px;
+	margin: 0 auto;
+}

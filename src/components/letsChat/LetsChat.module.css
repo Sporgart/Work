@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	row-gap: 0.75rem;
+
+	padding: 0.75rem;
+	border-radius: 0.75rem;
+
+	background-color: var(--black);
+
+	color: var(--light-text);
+	line-height: 1.5;
+}
+.name {
+	font-weight: 500;
+	font-size: 0.875rem;
+}
+.my-contact {
+	font-weight: 400;
+	font-size: 0.625rem;
+}
